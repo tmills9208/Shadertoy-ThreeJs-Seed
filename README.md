@@ -1,4 +1,6 @@
-# Three Seed
+# Shadertoy Three.js Seed
+
+Thank you to edwinwebb for the starter, which I used to create myself a template to run shadertoy code. The template I used can be found here: https://github.com/edwinwebb/three-seed
 
 Three.js starter project boilerplate bundled with Webpack.
 

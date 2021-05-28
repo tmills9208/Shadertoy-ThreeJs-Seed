@@ -68,7 +68,7 @@ function main() {
 
   // resize
   const windowResizeHanlder = () => { 
-    const { innerHeight, innerWidth } = window;
+    const { innerWidth, innerHeight } = window;
     renderer.setSize(innerWidth, innerHeight);
     camera.aspect = innerWidth / innerHeight;
     camera.updateProjectionMatrix();
