@@ -47,21 +47,6 @@ If you want to add additional functionality to your project, you can search and 
 
 Additions like these are best managed in the projects entry file: `./src/entry.js`. In it are the Scene, Camera, Renderer, the window event listeners and the animation loop.
 
-## Using the Three.js Examples
-When using this project you might bump into a few issues around using 
-the examples from three.js docs. Most of the common issues have been 
-solved with including NPM packages. However, for more complex examples 
-with custom script includes you might find yourself having to refactor 
-them. See [Issue 15](https://github.com/edwinwebb/three-seed/issues/15) 
-for an example.
-
-## About the models
-Both the models are loaded by the GLTFLoader and were sourced from the Google Poly project.
-
-"[Floating Island](https://poly.google.com/view/eEz9hdknXOi)" by [sirkitree](https://poly.google.com/user/3dVB0GT8oMI) is licensed under CC BY 2.0
-
-"[Flower](https://poly.google.com/view/9znAp0dJiS8)" by [Poly By Google](https://poly.google.com/user/4aEd8rQgKu2) is licensed under CC BY 2.0
-
 ## Building the project for the web
 Once you are happy with your project you'll be sure to want to show it off. Running `npm run build` in terminal will bundle your project into the folder `./build/`. You can upload this directory to a web server. For more complex results read [this guide](https://webpack.js.org/guides/production/).
 
